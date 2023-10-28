@@ -17,9 +17,6 @@ inputs:
   dockerfile_path:
     description: path of the dockerfile
     required: true
-  tag:
-    description: docker image tag
-    required: true
 
 runs:
   using: composite
